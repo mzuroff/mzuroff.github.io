@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#first-paragraph {
+    color: rgb(216, 112, 147);
+    background-color: #eacdd6;
+    font-style: italic;
+    text-align: center;
+}
+
+#second-paragraph {
+    color: #2770c4;
+    background-color: rgb(174, 174, 226);
+    font-size: 34px;
+    text-decoration: underline;
+}
+
+#Bold-paragraph{
+    font-weight: bold;
+    background-color: rgb(193, 113, 113);
+    font-family: sans-serif; Tahoma, Geneva, Verdana,
+}
+
+#span1 {
+    color: red; 
+    font-size: bold;
+    font-weight: line-through;
+}
+#span2 {
+    font-style: italic;
+    text-decoration: line-through;
+}
+
+#span3 {
+    background-color: rgb(231, 231, 29);
+}
+
+#span4 {
+    text-align: right;
+}
