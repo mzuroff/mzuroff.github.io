@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+div {
+    border-width: 10px;
+    border-style: groove; 
+    border-color: rgb(168, 77, 168);
+    margin: 24px 12px;
+    padding: 24px 36px;
+    background-color: aqua;
+}
+
+p {
+    border: 20px ridge blue; 
+    margin: 60px;
+    padding: 48px 60px;
+    background-color: cornflowerblue;
+    border-radius: 48px;
+}
