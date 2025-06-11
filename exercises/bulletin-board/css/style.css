@@ -6,3 +6,24 @@
 
     Good luck, and have fun!
 */
+
+.post-it {
+    width: 200px;
+    background-color: yellow;
+    display: inline-block;
+    height: 200px;
+    margin: 24px;
+    padding: 24px;
+}
+
+#post-it1 {
+    background-color: lightblue;
+}
+
+#notes {
+    font-style: italic;
+    text-align: center;
+     }
+
+
+
