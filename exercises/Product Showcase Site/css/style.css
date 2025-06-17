@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.lemonade {
+    background-color: rgb(225, 219, 135);
+    text-align: center;
+    padding: 48px 0px;
+}
+
+.Raspberry {
+    background-color: rgb(215, 143, 171);
+    text-align: center;
+    padding: 48px 0px;
+    color: white;
+}
+
+.limeade {
+    background-color: rgb(176, 219, 156);
+    padding: 48px 0px;
+    text-align: center;
+}
+
+.single-column {
+    width: 50%;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
