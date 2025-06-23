@@ -7,7 +7,7 @@ body {
 }
 
 body {
-    background: rgb(193, 226, 235);
+    background: rgb(170, 163, 163);
 }
 
 /* grid container */
@@ -84,14 +84,10 @@ body {
     margin-left: 24px;
 }
 
-.metube-item .thumbnail-placeholder {
-    background: radial-gradient(
-        at top left, 
-        crimson,
-        orange
-    );
+.metube-item img {
     aspect-ratio: 16/9;
     border-radius: 8px;
+    width: 100%;
 }
 
 .metube-item h4 {
