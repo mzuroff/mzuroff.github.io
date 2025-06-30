@@ -7,3 +7,23 @@
     Just be aware that you may break some
     of the setup.css styling if you do so.
 */
+
+.card-style-3 {
+  width: 350px;
+    border: 15px solid #f6d70e;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: -4px 4px 12px #ceaaaa;
+    background: linear-gradient(
+        -70deg, 
+        #d0e1cf, 
+        #4edb49,
+        #bedabd
+     );
+    display: flex;
+    flex-direction: column;
+   }
+
+.card-style-3 img {
+    width: 100%;
+}
