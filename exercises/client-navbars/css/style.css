@@ -75,4 +75,10 @@ body {
     color: white;
 }
 
-#index-3 
+#navbar3 {
+    background: linear-gradient(to bottom, #934008, #e0c297);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
