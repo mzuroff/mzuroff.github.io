@@ -9,8 +9,8 @@ body {
 #navbar {
     background: linear-gradient(
         to bottom,
-        #c8c2ff,
-        #f2f0fd
+        #a46d51,
+        #ecc9b7
     );
     display: flex;
     align-items: center;
@@ -32,8 +32,8 @@ body {
 #navbar a:hover {
     background: linear-gradient(
         to top,
-        #c8c2ff,
-        #f2f0fd
+        #b18e7d,
+        #ecc9b7
     );
 }
 
@@ -56,13 +56,13 @@ body {
 }
 
 .dropdown-menu a {
-    background-color: darkslateblue;
+    background-color: #e5b8a2;
     width: 100%;
     min-width: 200px;
 }
 
 #navbar .dropdown-menu a:hover {
-    background: slateblue;
+    background: rgb(133, 116, 116);
 }
 
 .dropdown-container:last-child .dropdown-menu {
@@ -70,7 +70,7 @@ body {
 }
 body {
     font-family: sans-serif;
-    background-image: url(../images/cats\ and\ dog.jpg);
+    background-image: url(../images/dog\ pattern.webp);
     background-size: cover;
     background-position: center center;
 } 
@@ -83,11 +83,62 @@ body {
     /* position: relative; */
 }
 
+.hero1 {
+    background-image: url(../images/ausiedoodle.webp);
+    background-size: cover;
+    background-position: center center;
+    height: 60vh;
+    /* position: relative; */
+}
+
+.heroniro {
+    background-image: url(../images/huskies.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 60vh;
+    /* position: relative; */
+}
+
+.herostechie {
+    background-image: url(../images/goldenretriever.webp);
+    background-size: cover;
+    background-position: center center;
+    height: 60vh;
+    /* position: relative; */
+}
+
 #layout {
-    background-color: #f2f0fdcc;
+    background-color: #e5b8a2;
     border-radius: 60px;
     padding: 75px 8px;
     max-width: 600px;
     margin: 48px auto;
     text-align: center;
+}
+
+/* Media-query */
+@media screen and (max-width: 650px) {
+    /* body {
+        background: bisque;
+    } */
+
+    #navbar {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #navbar #logo {
+        margin-right: 0;
+    }
+
+    #layout {
+        padding: 16px;
+        margin: 16px;
+    }
+    .single-column-layout {
+    width: 90vw;
+    max-width: 800px;
+    margin: 48px auto;
+    }
 }
