@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: #c8a790;
+}
+
+#heading {
+    position: sticky;
+    top: 0px;
+}
+
+.content-column {
+    width: 850px;
+    margin: 0px auto;
+}
+
+#navbar {
+    background: linear-gradient(to bottom, rgb(1, 135, 1), #3e6d3e);
+}
+
+#navbar .content-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}  
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px 0%;
+}
+
+#navbar .content-column div a {
+    padding: 36px;
+}
+
+#navbar #logo img {
+    width: 150px;
+    border-radius: 20%;
+}
+
+#navbar .button {
+    background-color: white;
+    color: #AF6E41;
+    border-radius: 25px;
+    padding: 12px 28px;
+    font-size: 18px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+}
+
+#navbar2 {
+    background: linear-gradient(to bottom, #AF6E41, #c8a790);
+}
+
+#navbar2 .content-column {
+    display: flex;
+    justify-content: space-around;
+}
+
+#navbar2 a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 0px;
+}
+
+#hero {
+    background-image: url("../images/rainforest\ garden.jpg");
+    height: 70vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .main-page {
+    text-align: center;
+    color: #AF6E41;
+    padding-top: 100px;
+}
+
+#hero h2 {
+    font-size: 72px;
+    margin-bottom: 0px;
+}
+
+#hero h4 {
+    font-size: 2px;
+    margin: px;
+}
+
+#hero a {
+    font-size: 20px;
+    display: inline-block;
+    background-color: #AF6E41;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 24px;
+    margin-top: 36px;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+#flex-side-by-side {
+    width: 80vw;
+    max-width: 800px;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.image-container {
+    height: 400px;
+}
+
+#flex-side-by-side2 {
+    width: 80vw;
+    max-width: 800px;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.image-container2 {
+    height: 400px;
+}
+
+.single-column-layout {
+    width: 90vw;
+    max-width: 800px;
+    margin: 48px auto;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.image-container,
+.content-container {
+    flex: 1;
+}
+
+#flex-side-by-side .image-container {
+    width: 400px;
+    flex: 0 1 auto;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 24px;
+}
+
+.image-container {
+    height: 400px;
+}
+
+.content-container h1 {
+    font-size: 48px;
+    color: #b38e8e;
+}
+
+#main-content {
+box-sizing: border-box;
+}
+
+#main-section-menu .single-column {
+    background-color: #3e6d3e;
+    padding: 20px 40px 20px 45px;
+    border-radius: 18px;
+}
+
+.side-by-side {
+    display: flex;
+    align-items: center;
+    margin: 48px 0px;
+}
+#menu-container {
+    max-width: 1500px;
+    margin: 48px auto;
+    color:#ffffff;
+    align-items: center;
+}
+#menu-container .basic-grid-gallery-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 0px 30px;
+}
+
+#menu-container .basic-grid-gallery-menu .card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 18px;
+}
+#menu-container .basic-grid-gallery-menu .food-name {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+}

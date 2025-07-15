@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#single-column {
+    width: 50%; 
+    min-width: 1000px;
+    margin: 0px auto; 
+}
+
+#single-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#single-column .left1 {
+    display: flex;
+}
+
+#single-column .left1 p,
+#single-column .left1 img {
+    /* flex: 1; */
+    width: 250px;
+}
+
+#left {
+    background-color: lightblue;
+}
+
+#middle {
+    background-color: darkblue;
+    color: white;
+}
+
+#middle img {
+    align-items: center;
+}
+
+#right {
+    background-color: aquamarine;
+}
