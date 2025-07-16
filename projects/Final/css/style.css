@@ -10,6 +10,12 @@ body {
     border: 24px solid #b1d0ac;
 }
 
+#hero-1 {
+    background-image: url("../images/vecteezysuperbowl-backgroundrd1122rev1_generated.jpg");
+    /* background-size: cover; */
+    /* background-position: center center; */
+}
+
 .single-column {
     margin: 24px 0px;
     padding: 24px 36px;

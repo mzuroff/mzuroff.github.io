@@ -3,7 +3,7 @@
 }
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
     background-color: #c8a790;
 }
 
@@ -18,7 +18,7 @@ body {
 }
 
 #navbar {
-    background: linear-gradient(to bottom, rgb(1, 135, 1), #3e6d3e);
+    background: linear-gradient(to bottom, rgb(2, 92, 2), #427542);
 }
 
 #navbar .content-column {
@@ -31,6 +31,8 @@ body {
     text-decoration: none;
     color: white;
     padding: 24px 0%;
+    font-size:x-large;
+    font-weight: 500;
 }
 
 #navbar .content-column div a {
@@ -69,7 +71,7 @@ body {
 }
 
 #hero {
-    background-image: url("../images/rainforest\ garden.jpg");
+    background-image: url("../images/our-garden.jpg");
     height: 70vh;
     background-size: cover;
     background-position: center center;
@@ -80,7 +82,7 @@ body {
 
 #hero .main-page {
     text-align: center;
-    color: #AF6E41;
+    color: #ffffff;
     padding-top: 100px;
 }
 
@@ -97,13 +99,14 @@ body {
 #hero a {
     font-size: 20px;
     display: inline-block;
-    background-color: #AF6E41;
+    background-color: #a4683e;
     color: #ffffff;
     text-decoration: none;
     padding: 24px;
     margin-top: 36px;
     margin-right: 12px;
     margin-left: 12px;
+    border-radius: 15%;
 }
 
 #flex-side-by-side {
@@ -161,6 +164,13 @@ body {
     border-radius: 24px;
 }
 
+.image-container2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 24px;
+}
+
 .image-container {
     height: 400px;
 }
@@ -175,9 +185,9 @@ box-sizing: border-box;
 }
 
 #main-section-menu .single-column {
-    background-color: #3e6d3e;
+    background: linear-gradient(to top, rgb(2, 92, 2), #b1c7b1);
     padding: 20px 40px 20px 45px;
-    border-radius: 18px;
+    /* background-color: #427542; */
 }
 
 .side-by-side {
@@ -210,3 +220,36 @@ box-sizing: border-box;
     justify-content: space-between;
     color: #ffffff;
 }
+
+ #footer {
+    background: linear-gradient(to bottom, rgb(2, 92, 2), #427542);
+    color: white;
+    padding: 12px;
+    }
+
+#footer a {
+    text-decoration: none;
+    color: white;
+    }
+
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    }
+
+#footer-columns-navbar {
+    width: 800px;
+    margin: 0px auto;
+    padding: 48px 0px;
+    display: flex;
+    justify-content: space-between;
+    }   
+
+#footer-columns-navbar a {
+    display: block;
+    padding: 8px 0px;
+    }
+        
+    
